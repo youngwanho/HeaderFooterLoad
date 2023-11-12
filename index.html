@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>헤더 푸터 불러오기</title>
+    <link rel="stylesheet" href="src/assets/css/style.css">
+</head>
+<body>
+    <header data-include-path="src/components/header.html"></header>
+    <main>
+        <article>
+            <section>
+                <hgroup>
+                    <h1>헤더와 푸터 불러오기</h1>
+                    <p>헤더와 푸터같은 재사용성이 높은 컴포넌트는 파일을 분리하여 로드하는 편이 좋다.</p>
+                </hgroup>
+            </section>
+        </article>
+    </main>
+    <footer data-include-path="src/components/footer.html"></footer>
+    <script src="src/assets/js/common.js"></script>
+</body>
+</html>
